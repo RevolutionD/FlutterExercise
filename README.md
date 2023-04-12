@@ -1,5 +1,5 @@
 # Bài luyện tập ngôn ngữ Dart cơ bản
-File chạy chính ở path: **[bin/basiclearningdart.dart](bin/basiclearningdart.dart)**
+File chạy chính ở path: **[lib/main.dart](lib/main.dart)**
 - Bài tập tuần 9 ở path: **[lib/Week 9](lib/Week%209/)** <br>
 
 ## Thông tin môn học
