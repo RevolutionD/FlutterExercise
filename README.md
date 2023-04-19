@@ -4,7 +4,7 @@ File chạy chính ở path: **[lib/main.dart](lib/main.dart)**
 - Bài tập tuần 10 ở path: **[lib/Week 10](lib/Week%2010/)** <br>
 
 ## Lưu ý khi chạy chương trình
-- Bài tập tuần 9 có thể tải riêng file về và gọi tên màn trong MyApp
+- Bài tập tuần 9 có thể tải riêng file về và gọi tên màn trong MyApp ở file **[main.dart](lib/main.dart)**
 ``` Dart
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
