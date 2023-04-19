@@ -1,4 +1,4 @@
-# Bài luyện tập ngôn ngữ Dart cơ bản
+# Bài luyện tập lập trình Mobile cơ bản
 File chạy chính ở path: **[lib/main.dart](lib/main.dart)**
 - Bài tập tuần 9 ở path: **[lib/Week 9](lib/Week%209/)** <br>
 - Bài tập tuần 10 ở path: **[lib/Week 10](lib/Week%2010/)** <br>
@@ -28,5 +28,5 @@ class MyApp extends StatelessWidget {
 git clone https://github.com/RevolutionD/FlutterExercise.git
 ```
 ## Thông tin môn học
-Bộ môn: **Lập trình thiết bị di động - N07** <br>
-Sinh viên thực hiện: **Đỗ Hồng Biên - 89711**
+- Bộ môn: **Lập trình thiết bị di động - N07** <br>
+- Sinh viên thực hiện: **Đỗ Hồng Biên - 89711**
