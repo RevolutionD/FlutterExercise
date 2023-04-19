@@ -1,7 +1,7 @@
 # Bài luyện tập lập trình Mobile Flutter cơ bản
-File chạy chính ở path: **[lib/main.dart](lib/main.dart)**
-- Bài tập tuần 9 ở path: **[lib/Week 9](lib/Week%209/)** <br>
-- Bài tập tuần 10 ở path: **[lib/Week 10](lib/Week%2010/)** <br>
+File chạy chính: **[lib/main.dart](lib/main.dart)**
+- Bài tập tuần 9: **[lib/Week 9/](lib/Week%209/)** <br>
+- Bài tập tuần 10: **[lib/Week 10/](lib/Week%2010/)** <br>
 
 ## Lưu ý khi chạy chương trình
 - Bài tập tuần 9 có thể tải riêng file về và gọi tên màn trong MyApp ở file **[main.dart](lib/main.dart)**
