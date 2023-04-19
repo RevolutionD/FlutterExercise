@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
 ```
 
 - Bài tập tuần 10 có nhiều file image, cách nhanh nhất là clone code về run luôn cho nhanh
-```cmd
+```sh
 git clone https://github.com/RevolutionD/FlutterExercise.git
 ```
 ## Thông tin môn học
