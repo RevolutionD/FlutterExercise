@@ -2,6 +2,7 @@
 File chạy chính: **[lib/main.dart](lib/main.dart)**
 - Bài tập tuần 9: **[lib/Week 9/](lib/Week%209/)** <br>
 - Bài tập tuần 10: **[lib/Week 10/](lib/Week%2010/)** <br>
+- Bài tập tuần 12: **[lib/Week 12/](lib/Week%2012/)** <br>
 
 ## Lưu ý khi chạy chương trình
 - Bài tập tuần 9 có thể tải riêng file về và gọi tên màn trong MyApp ở file **[main.dart](lib/main.dart)**
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-- Bài tập tuần 10 có nhiều file image, cách nhanh nhất là clone code về run luôn cho nhanh
+- Bài tập tuần 10 và tuần 12 có nhiều file image, cách nhanh nhất là clone code về run luôn cho nhanh
 ```sh
 git clone https://github.com/RevolutionD/FlutterExercise.git
 ```
