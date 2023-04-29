@@ -1,3 +1,4 @@
+import 'package:basiclearingflutter/Week%2012/checkout_page.dart';
 import 'package:flutter/material.dart';
 
 class CategoryPage extends StatefulWidget {
@@ -93,52 +94,55 @@ class _CategoryPageState extends State<CategoryPage> {
   }
 
   Widget _childTwo({required String image, required String title, required String subtitle, int price = 1, bool favorite = false}) {
-    return Padding(
-      padding: const EdgeInsets.only(right: 10),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Stack(
-            children: [
-              Container(
-                width: MediaQuery.of(context).size.width / 2.5,
-                height: MediaQuery.of(context).size.width / 2.5,
-                padding: const EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: const BorderRadius.all(Radius.circular(2)),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.grey.withOpacity(0.5),
-                      spreadRadius: 0.5,
-                      blurRadius: 3,
-                      offset: const Offset(0, 2),
-                    ),
-                  ],
-                ),
-                child: Image.asset(image),
-              ),
-              Positioned(
-                top: 8,
-                left: 8,
-                child: Container(
-                  decoration: const BoxDecoration(
-                    color: Colors.grey,
-                    borderRadius: BorderRadius.all(Radius.circular(5)),
+    return InkWell(
+      onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const CheckoutPage())),
+      child: Padding(
+        padding: const EdgeInsets.only(right: 10),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Stack(
+              children: [
+                Container(
+                  width: MediaQuery.of(context).size.width / 2.5,
+                  height: MediaQuery.of(context).size.width / 2.5,
+                  padding: const EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: const BorderRadius.all(Radius.circular(2)),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey.withOpacity(0.5),
+                        spreadRadius: 0.5,
+                        blurRadius: 3,
+                        offset: const Offset(0, 2),
+                      ),
+                    ],
                   ),
-                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                  child: Text('${price}KG', style: const TextStyle(color: Colors.white)),
+                  child: Image.asset(image),
                 ),
-              ),
-              Positioned(bottom: 8, right: 8, child: Icon(favorite ? Icons.favorite : Icons.favorite_border_rounded, color: favorite ? Colors.green : Colors.black)),
-            ],
-          ),
-          const SizedBox(height: 5),
-          Text(title),
-          const SizedBox(height: 5),
-          Text('Rs.$subtitle', style: const TextStyle(fontWeight: FontWeight.bold)),
-          const SizedBox(height: 10),
-        ],
+                Positioned(
+                  top: 8,
+                  left: 8,
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      color: Colors.grey,
+                      borderRadius: BorderRadius.all(Radius.circular(5)),
+                    ),
+                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                    child: Text('${price}KG', style: const TextStyle(color: Colors.white)),
+                  ),
+                ),
+                Positioned(bottom: 8, right: 8, child: Icon(favorite ? Icons.favorite : Icons.favorite_border_rounded, color: favorite ? Colors.green : Colors.black)),
+              ],
+            ),
+            const SizedBox(height: 5),
+            Text(title),
+            const SizedBox(height: 5),
+            Text('Rs.$subtitle', style: const TextStyle(fontWeight: FontWeight.bold)),
+            const SizedBox(height: 10),
+          ],
+        ),
       ),
     );
   }
